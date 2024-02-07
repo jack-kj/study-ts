@@ -1,0 +1,27 @@
+{
+  "name": "study-ts",
+  "version": "1.0.0",
+  "description": "jack study TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jack-kj/study-ts.git"
+  },
+  "keywords": [
+    "study",
+    "typescript",
+    "ts"
+  ],
+  "author": "jack.kj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jack-kj/study-ts/issues"
+  },
+  "homepage": "https://github.com/jack-kj/study-ts#readme",
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}

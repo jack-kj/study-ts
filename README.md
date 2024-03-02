@@ -3,3 +3,4 @@
 
 [![codecov](https://codecov.io/gh/jack-kj/study-ts/graph/badge.svg?token=Z267TBR0D8)](https://codecov.io/gh/jack-kj/study-ts)
 ![example workflow](https://github.com/jack-kj/study-ts/actions/workflows/test.yml/badge.svg)
+![GitHub License](https://img.shields.io/github/license/jack-kj/study-ts)

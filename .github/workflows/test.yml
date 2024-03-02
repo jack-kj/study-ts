@@ -1,9 +1,7 @@
-name: Run Tests
+name: Unit Tests
 
 on:
-  push:
-    branches:
-      - main
+  [push]
 
 jobs:
   test:

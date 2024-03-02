@@ -1,0 +1,25 @@
+name: Codecov
+on: [push, pull_request]
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Set up Node 18
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+      - name: Install dependencies
+        run: npm install
+      - name: Run tests and collect coverage
+        run: npm run test
+      - name: Upload coverage to Codecov
+        uses: codecov/codecov-action@v4-beta
+        with:
+          flags: smart-tests
+          verbose: true
+          token: ea674bd9-85d7-4129-93d1-76b53ff9749c
+          slug: jack-kj/study-ts
+        env:
+          CODECOV_TOKEN: ea674bd9-85d7-4129-93d1-76b53ff9749c

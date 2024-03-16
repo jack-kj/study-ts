@@ -2,6 +2,10 @@ function squareOf(n: number) {
     return n*n;
 }
 
+export function increase(a: number): number {
+    return a+1
+}
+
 function testChapter3() {
     let b: any;
     let a: unknown;

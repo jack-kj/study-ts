@@ -1,5 +1,3 @@
-
-
 type TsError = {
     status: number,
     reason: string
